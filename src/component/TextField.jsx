@@ -16,9 +16,6 @@ const TextField = ({ value, label, onChange }) => {
     <Container>
       <Label>{'Desafio'}</Label>
       <Input value={value} onChange={handleOnChange} placeholder={'Digite um valor'}/>
-    <br/>
-    <br/>
-      <span>{valor}</span>
     </Container>
   )
 }
